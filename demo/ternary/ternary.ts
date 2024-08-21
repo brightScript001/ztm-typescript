@@ -6,3 +6,8 @@ import { strict as assert } from "assert";
 //
 // Useful links:
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+
+let age = 18;
+//           boolean exp ? T     f
+let canVote = age >= 18 ? "Yes" : "No";
+assert.equal(canVote, 18);

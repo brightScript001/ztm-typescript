@@ -8,3 +8,22 @@
 //
 // Useful links:
 // https://www.typescriptlang.org/docs/handbook/variable-declarations.html#let-declarations
+
+const courseName = "typescript";
+
+const bigInt = 9000n;
+
+const yes = true;
+
+const no = false;
+
+// completely missing
+const missing = undefined;
+
+// we know its missing
+const empty = null;
+
+let hello;
+hello = "hi";
+
+// const whoops; //ERROR

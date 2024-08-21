@@ -7,3 +7,20 @@ import { strict as assert } from "assert";
 //
 // Useful links:
 // https://www.typescriptlang.org/docs/handbook/2/objects.html
+
+type Coordinate = {
+  x: number;
+  y: number;
+};
+
+const origin: Coordinate = {
+  x: 0,
+  y: 0,
+};
+
+const xPosition = origin.x;
+const yPosition = origin.y;
+
+const coord: Coordinate = { x: 1, y: 1 };
+coord.x = 20;
+coord.y = 10;

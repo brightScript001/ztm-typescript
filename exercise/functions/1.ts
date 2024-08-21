@@ -9,3 +9,19 @@
 
 import { strict as assert } from "assert";
 
+function firstName(): string {
+  return "John";
+}
+firstName();
+
+function lastName(): string {
+  return "Doe";
+}
+lastName();
+
+function fullName(firstName: string, lastName: string): string {
+  return `${firstName} ${lastName}`;
+}
+const completeName = fullName(firstName(), lastName());
+
+assert.strictEqual(completeName, "John Doe");
